@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="formulario">
+        Nombres <br>
+        <input type="text" placeholder="Escriba sus nombres" id="nombres"> <br> <br>
+
+        Apellidos <br>
+        <input type="text" placeholder="Escriba sus apellidos" id="apellidos"> <br> <br>
+
+        Curso <br>
+        <select name="curso" id="cursos">
+            <option value="0">Seleccione su grado</option>
+            
+            <option value="6">6° Grado</option>
+            <option value="7">7° Grado</option>
+            <option value="8">8° Grado</option>
+            <option value="9">9° Grado</option>
+            <option value="10">10° Grado</option>
+            <option value="11">11° Grado</option>
+        </select> <br> <br>
+
+        Edad <br>
+        <input type="text" placeholder="Escriba su edad" id="edad"> <br> <br>
+
+        Sexo <br>
+        <select name="sexo" id="sexo">
+            <option value="0">Seleccione su genero</option>
+            <option value="1">Masculino</option>
+            <option value="2">Femenino</option>
+        </select> <br> <br>
+
+        Estado civil <br>
+        <select name="civil" id="civil">
+            <option value="0">Seleccione su estado civil</option>
+            <option value="1">Soltero</option>
+            <option value="2">Casado</option>
+        </select> <br> <br>
+
+        Poblacion vulnerable <br>
+        
+        <input type="radio" name="sino" id="si"> Si
+        <input type="radio" name="sino" id="no"> No
+        <br> <br>
+
+        Ubicacion <br>
+        <select name="ubicacion" id="ubicacion">
+            <option value="0">Seleccione su ubicacion</option>
+            <option value="1">La playa</option>
+            <option value="2">Malambo</option>
+            <option value="3">Barranquilla</option>
+            <option value="4">Galapa</option>
+        </select>
+        <input type="submit" value="enviar" id="enviar">
+    </form>
+    <div id="container">
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

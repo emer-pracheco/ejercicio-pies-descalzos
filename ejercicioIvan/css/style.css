@@ -1,0 +1,15 @@
+body{
+    background-image: url(fondo.jpg);
+    background-size: 100%;
+    background-repeat: none;
+
+}
+
+form{
+    padding: 20px;
+    background-color: aliceblue;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 20px;
+    border: solid 3px black;
+}
